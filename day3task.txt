@@ -1,0 +1,53 @@
+1.JSON Iterate over all for loops(for, for in, for of anf forEach):
+-------------------------------------------------------------------
+FOR:
+    It is a kind of loop that runs with a method of using a counter.
+    For example:
+     let a=[1,2,3,4];
+     for(let i=0;i<a.length;i++){
+     console.log(a[i]);
+     }
+FOR IN:
+    Unlike for loop, this loop won't be using counter. For example:
+    let person = {fname: "Radha",
+                  lname: "Rajee",
+                  age : 32};
+    for (let x in person){
+     console.log(x+ ":"+person[x]);
+     }
+ FOR EACH:
+   It will perform the code by getting each element until the last element in the array.
+   For example:
+      let arr=[1,2,3,4];
+      let sum=0;
+      arr.forEach(a=>sum+=a);
+      console.log(sum);
+ -----------------------------------------------------------------------------------------
+ 
+ 2.Create own resume data in JSON format:
+ 
+ let myResume=[{
+              name: "Rajalakshmi",
+              Qualification: "M.Sc",
+              Email:"rajeenagaraj@yahoo.com",
+              phoneno:9787229361,
+              Address:"Madurai",
+              }];
+  console.log(myResume);
+  ------------------------------------------------------------------------------------------
+  
+  3.Difference between window, screen and document:
+  
+      window is the main JavaScript object root, the global object in a browser,
+  and it can also be treated as the root of the documwent object model. You can access it as window.
+   
+  window.screen => screen is a small information object about physical screen dimensions.
+
+  window.document => document is the main object of the potentially visible document object model/DOM.
+  
+ WINDOW:  is the execution context and global object for that context's JavaScript
+ DOCUMENT: contains the DOM, initialized by parsing HTML
+ SCREEN: describes the physical display's full screen
+  
+  
+ 
